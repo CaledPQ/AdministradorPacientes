@@ -1,10 +1,10 @@
-import React from 'react'
-import "./Header.css"
+import React from "react";
+import "./Header.css";
 
-export default function Header() {
+export default function Header({titulo}) {
   return (
     <div className="pricipalTitle">
-    <h1 className="tittle">Adminitrador de Pacientes</h1>
+      <h1 className="tittle">{titulo}</h1>
     </div>
-  )
+  );
 }
