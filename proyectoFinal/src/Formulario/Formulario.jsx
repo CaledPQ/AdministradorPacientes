@@ -25,7 +25,7 @@ export default function Formulario({pacientes,setPacientes}) {
           <label htmlFor="">Nombre Mascota</label>
         </div>
         <div className="inputGroup">
-          <input
+          <input className="input"
             onChange={(e) => {
               setMascota(e.target.value);
             }}
@@ -38,7 +38,7 @@ export default function Formulario({pacientes,setPacientes}) {
           <label htmlFor="">Dueño</label>
         </div>
         <div className="inputGroup">
-          <input
+          <input className="input"
             onChange={(e) => {
               setDueño(e.target.value);
             }}
@@ -51,7 +51,7 @@ export default function Formulario({pacientes,setPacientes}) {
           <label htmlFor="">Fecha de Registro</label>
         </div>
         <div className="inputGroup">
-          <input
+          <input className="input"
             onChange={(e) => {
               setFecha(e.target.value);
             }}
@@ -63,7 +63,7 @@ export default function Formulario({pacientes,setPacientes}) {
           <label htmlFor="">Hora de Registro</label>
         </div>
         <div className="inputGroup">
-          <input
+          <input className="input"
             onChange={(e) => {
               setHora(e.target.value);
             }}
@@ -75,7 +75,7 @@ export default function Formulario({pacientes,setPacientes}) {
           <label htmlFor="">Sintomas de la mascota</label>
         </div>
         <div className="inputGroup">
-          <input
+          <input className="input"
             onChange={(e) => {
               setSintoma(e.target.value);
             }}
@@ -85,7 +85,7 @@ export default function Formulario({pacientes,setPacientes}) {
         </div>
 
         <div className="button2">
-          <button onClick={agregarPaciente} type="button">Agregar</button>
+          <button className="btn" onClick={agregarPaciente} type="button">Agregar</button>
         </div>
       </form>
     </div>

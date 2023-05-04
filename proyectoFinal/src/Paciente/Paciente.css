@@ -8,3 +8,9 @@
 
   
 }
+
+.btn{
+    background-color: rgb(19, 79, 192);
+    border-radius: 16px;
+    font-size: medium;
+}

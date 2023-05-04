@@ -25,6 +25,7 @@ function App() {
             return (
               <Paciente
                 nombre={paciente.mascota}
+                setPacientes={setPacientes}
                 dueño={paciente.dueño}
                 fecha={paciente.fecha}
                 hora={paciente.hora}
